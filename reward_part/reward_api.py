@@ -186,7 +186,7 @@ async def get_reward(request: Request):
 
 @app.post("/get_reward2")
 async def get_reward2(request: Request):
-    """使用辉鹏训练的reward模型，提供反馈接口"""
+    """使用自定义的reward模型，提供反馈接口"""
     json_data = await request.json()
 
     def wrap_process_data():
