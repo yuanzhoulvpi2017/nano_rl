@@ -63,18 +63,12 @@ async def async_call_online_reward_model(url: str, **kwargs):
 
 def call_online_reward_model(url: str, **kwargs):
     try:
-        headers = {
-            "accept": "application/json",
-            "Content-Type": "application/json",
-        }
-
-        json_data = {**kwargs}
-
-        response = requests.post(url, headers=headers, json=json_data)
-        res = response.json()
-
-        final_score = res.get("score")
-        return float(final_score), res
+        # Use the async function in a synchronous context
+        loop = asyncio.get_event_loop()
+        score, details = loop.run_until_complete(
+            async_call_online_reward_model(url, **kwargs)
+        )
+        return score, details
     except Exception as e:
         return 0.0, {}
 
