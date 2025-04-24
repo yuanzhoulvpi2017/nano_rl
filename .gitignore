@@ -1,4 +1,3 @@
-
 **/*.pt
 **/checkpoints
 **/wget-log
@@ -121,8 +120,10 @@ tests/e2e/toy_examples/deepspeed/synchronous/output.txt
 # data
 *.parquet
 
-
 # local logs
 logs
 log
 outputs
+
+verl_grpo_test.sh
+verl_grpo_debug.sh

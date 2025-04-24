@@ -178,6 +178,7 @@ reward_model:
   use_dynamic_bsz: ${critic.use_dynamic_bsz}
   forward_max_token_len_per_gpu: ${critic.forward_max_token_len_per_gpu}
   reward_manager: naive
+  reward_api: http://10.136.0.64:5009/get_reward
 
 custom_reward_function:
   path: null
