@@ -4,12 +4,12 @@
 本项目是基于 [verl](https://github.com/volcengine/verl/tree/82cbc43dc7c42484cc0626247c9b44fd307c0513) 的二次开发，旨在增强原有框架的灵活性和性能，主要针对 reward 模型的调用和管理方式进行了优化。
 
 
-## 分享verl_agent的踩坑经历
-[verl_agent踩坑经历](https://github.com/yuanzhoulvpi2017/nano_rl/blob/main/base11_verl_agent.md)
+## 分享verl_agent的踩坑经历(更新时间：2026_05_02)
+[2025.08～2025.12 verl_agent踩坑经历](https://github.com/yuanzhoulvpi2017/nano_rl/blob/main/base11_verl_agent.md)
 
 
 
-## 核心功能(更新时间：2025-0415)
+## 核心功能(更新时间：2025_04_15)
 
 ### 1. 远程 Reward 调用机制
 
