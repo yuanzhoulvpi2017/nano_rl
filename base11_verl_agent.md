@@ -296,7 +296,7 @@ tokenizer.encode("\n</observation>\n") # [198, 522, 77960, 397]
 
 奖励模型主要覆盖以下几个维度：第一次 `think` 的相关性、第二次 `think` 的相关性、内容友善度、格式合规性等。评分规则也经历了几轮演进——从最初的简单加权，逐步改为递进式评分，最终引入 Rubrics 框架。细节不在此展开。
 
-核心部分的代码（`LLMGenerationManager`）已上传至：[llm_agent/business_agent.py](https://github.com/yuanzhoulvpi2017/nano_rl/blob/verl_agent/llm_agent/business_agent.py)
+核心部分的代码（`LLMGenerationManager`）已上传至：[llm_agent/business_agent.py](https://github.com/yuanzhoulvpi2017/nano_rl/blob/main/llm_agent/business_agent.py)
 
 
 ## 最后
