@@ -13,6 +13,10 @@
 
 工具配置上也相对简洁：整个 Agent 只需要一个 `search` 工具，没有其他多余依赖。不过，检索方向的把控确实是个难点，导致数据构造异常困难，好在最终基本克服了这一问题。
 
+
+
+
+
 ## 技术路线选型
 
 25 年 8 月时，可参考的 Agent 方案其实并不多，当时视野内有：阿里系的 Deep Research、Kimi 的 Researcher、问小白的 Deep Research Bench，以及 OPPO 的 COA（Chain of Agents，链式智能体框架）。
